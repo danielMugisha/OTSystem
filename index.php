@@ -122,10 +122,7 @@ if (!isset($_SESSION['username'])) {
 				<ul class="nav navbar-nav navbar-right">
 					<li> <a href="">Home</a></li>
 					<li> <a href="#myservice_section">Our Service</a></li>
-					<li> <a href="#work">Works</a></li>
-					<li> <a href="#our-members">Team</a></li>
-					<li> <a href="#myfaq">FAQs</a></li>
-					<li> <a href="">Carrier</a></li>
+					
 					<li> <a href="logout.php" id="our-location" class="btn-success" ><?php echo $_SESSION['username'];   ?></a></li>
 				</ul>
 	                 <!------Navigation menus ends---->
@@ -313,108 +310,7 @@ if (!isset($_SESSION['username'])) {
 
 			<!---Our Services Section Ends------->
 
-			<section class="work" id="work"><br>
-				<h2 id="work-heading" class="text-center" style="font-weight: bold;">OUR WORK</h2>
-				<p class="text-center">join us to improve your works join us to improve your works</p>
-				<div class="container-fluid">
-					<!---first row start-->
-					<div class="row no-gutters">
-					<div class="col-md-3 col-sm-3 col-xs-3">
-						<div class="img-wrapper">
-							<a href="img/work1.png" title="this is a sky image">
-								<img src="img/work1.png" class="img-responsive">
-							</a>
-							
-						</div>
-						
-					</div>
-
-					<div class="col-md-3 col-sm-3 col-xs-3">
-						<div class="img-wrapper">
-							<a href="img/work2.png" title="this is a sky image">
-								<img src="img/work2.png" class="img-responsive">
-							</a>
-							
-						</div>
-						
-					</div>
-
-					<div class="col-md-3 col-sm-3 col-xs-3">
-						<div class="img-wrapper">
-							<a href="img/work3.png" title="this is a sky image">
-								<img src="img/work3.png" class="img-responsive">
-							</a>
-							
-						</div>
-						
-					</div>
-
-					<div class="col-md-3 col-sm-3 col-xs-3">
-						<div class="img-wrapper">
-							<a href="img/work4.png" title="this is a sky image">
-								<img src="img/work4.png" class="img-responsive">
-							</a>
-							
-						</div>
-						
-					</div>
-
-
-					
-					<!---first row ends-->
-
-
-					<!-------second row starts  --->
-					
-					<div class="col-md-3 col-sm-3 col-xs-3">
-						<div class="img-wrapper">
-							<a href="img/work5.png" title="this is a sky image">
-								<img src="img/work5.png" class="img-responsive">
-							</a>
-							
-						</div>
-						
-					</div>
-
-					<div class="col-md-3 col-sm-3 col-xs-3">
-						<div class="img-wrapper">
-							<a href="img/work6.png" title="this is a sky image">
-								<img src="img/work6.png" class="img-responsive">
-							</a>
-							
-						</div>
-						
-					</div>
-
-					<div class="col-md-3 col-sm-3 col-xs-3">
-						<div class="img-wrapper">
-							<a href="img/work7.png" title="this is a sky image">
-								<img src="img/work7.png" class="img-responsive">
-							</a>
-							
-						</div>
-						
-					</div>
-
-					<div class="col-md-3 col-sm-3 col-xs-3">
-						<div class="img-wrapper">
-							<a href="img/work8.png" title="this is a sky image">
-								<img src="img/work8.png" class="img-responsive">
-							</a>
-							
-						</div>
-						
-					</div>
-
-					
-					
-					<!---second row ends-->
-					
-				</div>
-				
-
-
-			</section>
+			
 
 			<!---Our Services Section Ends------->
 
@@ -461,103 +357,7 @@ if (!isset($_SESSION['username'])) {
 
 
 
-			<!---Our Team Section Start------->
-			<br><br><br>
-			<div class="container text-center" id="our-members">
-				<h2><b>MEMBERS</b></h2>
-				<p>
-					These are our excellent member .you can contact anyone anytime <br> and all are experts and well experience
-				</p>
-			</div>
-
-
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div id="team-memebers" class="owl-carousel owl-theme">
-							<div class="team-member text-center">
-								<img src="img/sunil.jpg" class="img-responsive">
-								<div class="team-member-info text-center">
-									<h4 class="team-member-name">Sunil yadav</h4>
-									<h4 class="team-member-designation">ceo</h4>
-									<ul class="social-list">
-										<li><a href="https://www.facebook.com/profile.php?id=100004910078558" class="social-icon icon-gray"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="https://twitter.com/SunilYa35862617" class="social-icon icon-gray"><i class="fa fa-twitter"></i></a></li>
-										<li><a href="" class="social-icon icon-gray"><i class="fa fa-google-plus"></i></a></li>
-									</ul>
-								</div>
-							</div>
-
-
-							<div class="team-member text-center">
-								<img src="img/mangu.png" class="img-responsive">
-								<div class="team-member-info text-center">
-									<h4 class="team-member-name">Mangesh yadav</h4>
-									<h4 class="team-member-designation">Sr. Developer</h4>
-									<ul class="social-list">
-										<li><a href="" class="social-icon icon-gray"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="" class="social-icon icon-gray"><i class="fa fa-twitter"></i></a></li>
-										<li><a href="" class="social-icon icon-gray"><i class="fa fa-google-plus"></i></a></li>
-									</ul>
-								</div>
-							</div>
-
-
-							<div class="team-member text-center">
-								<img src="img/deepak.jpg" class="img-responsive">
-								<div class="team-member-info text-center">
-									<h4 class="team-member-name">Deepak yadav</h4>
-									<h4 class="team-member-designation">Jr. Developer</h4>
-									<ul class="social-list">
-										<li><a href="" class="social-icon icon-gray"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="" class="social-icon icon-gray"><i class="fa fa-twitter"></i></a></li>
-										<li><a href="" class="social-icon icon-gray"><i class="fa fa-google-plus"></i></a></li>
-									</ul>
-								</div>
-							</div>
-
-
-							<div class="team-member text-center">
-								<img src="img/danish.jpg" class="img-responsive">
-								<div class="team-member-info text-center">
-									<h4 class="team-member-name">Danish Shamsi</h4>
-									<h4 class="team-member-designation">Sr. Developer</h4>
-									<ul class="social-list">
-										<li><a href="" class="social-icon icon-gray"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="" class="social-icon icon-gray"><i class="fa fa-twitter"></i></a></li>
-										<li><a href="" class="social-icon icon-gray"><i class="fa fa-google-plus"></i></a></li>
-									</ul>
-								</div>
-							</div>
-
-
-							<div class="team-member text-center">
-								<img src="img/sunil2.jpg" class="img-responsive">
-								<div class="team-member-info text-center">
-									<h4 class="team-member-name">Sunil yadav</h4>
-									<h4 class="team-member-designation">ceo</h4>
-									<ul class="social-list">
-										<li><a href="" class="social-icon icon-gray"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="" class="social-icon icon-gray"><i class="fa fa-twitter"></i></a></li>
-										<li><a href="" class="social-icon icon-gray"><i class="fa fa-google-plus"></i></a></li>
-									</ul>
-								</div>
-							</div>
-
-
-
-
-
-
-
-						</div>
-					</div>
-				</div>
-			</div>
-
-
-
-			<!---Our Team Section Ends------->
+			
 <!-- =============================================================================================================================== -->
 
 
